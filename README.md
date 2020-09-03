@@ -7,7 +7,7 @@ This code is used for producing results in paper entitled:
 
 **Mofrad, A. A., Yazidi, A., Mofrad, S. A., Hammer, H. L., & Arntzen, E. (2020) Enhanced Equivalence Projective Simulation: a Framework for Modeling Formation of Stimulus Equivalence Classes** (Accepted in Neural Computation)
 
-which is an extention of the "equivalence projective simulation" model which is introduced in [Equivalence Projective Simulation (EPS)]{https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01274}.
+which is an extention of the "equivalence projective simulation" model which is introduced in [Equivalence Projective Simulation (EPS)](https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01274).
 
 Please cite the paper if you use the E-EPS model or the code in this repository. 
 
