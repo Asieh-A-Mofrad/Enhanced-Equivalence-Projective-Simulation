@@ -97,9 +97,11 @@ environment_parameters_detail = {
 ```
 
 
-**num_classes**: Is the number of classes in the experiment. It must be compatible with training_order
+**num_classes**:\
+Is the number of classes in the experiment. It must be compatible with training_order
 
-**training_order**: The structure of training and blocks in dict() format. There are two ways to initialize it though:
+**training_order**:\
+The structure of training and blocks in dict() format. There are two ways to initialize it though:
 
 1. let
 ```python
@@ -144,7 +146,8 @@ where 'AB' means all possible relations between the two categories say A1-B1, A2
 ```python        
         "plot_blocks_ID": {'relatin_type':['Direct','Derived']}
 ```
-**mastery_training**: A value between 0 and one that shows the mastery criteria. $0.9$ means $90\%$ correct choices in a block.  
+**mastery_training**:\
+A value between 0 and one that shows the mastery criteria. $0.9$ means $90\%$ correct choices in a block.  
 
 ### For agent:
 #### (In initialization.py)
