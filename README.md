@@ -5,7 +5,7 @@ This code is supposed to simulate the "enhanced equivalence projective simulatio
 modeling equivalence class formation in Behavior analysis. To model the formation of *derived relations*, the model uses [Network Enhancement (NE)](https://www.nature.com/articles/s41467-018-05469-x).
 This code is used for producing results in paper entitled:
 
-**Mofrad, A. A., Yazidi, A., Mofrad, S. A., Hammer, H. L., & Arntzen, E. (2020) Enhanced Equivalence Projective Simulation: a Framework for Modeling Formation of Stimulus Equivalence Classes** (Accepted in Neural Computation)
+**Mofrad, A. A., Yazidi, A., Mofrad, S. A., Hammer, H. L., & Arntzen, E. (2020). Enhanced Equivalence Projective Simulation: a Framework for Modeling Formation of Stimulus Equivalence Classes** (Accepted in Neural Computation)
 
 which is an extention of the "equivalence projective simulation" model which is introduced in [Equivalence Projective Simulation (EPS)](https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01274).
 
