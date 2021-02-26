@@ -5,8 +5,7 @@ This code is supposed to simulate the "enhanced equivalence projective simulatio
 modeling equivalence class formation in Behavior analysis. To model the formation of *derived relations*, the model uses [Network Enhancement (NE)](https://www.nature.com/articles/s41467-018-05469-x).
 This code is used for producing results in paper entitled:
 
-**Mofrad, A. A., Yazidi, A., Mofrad, S. A., Hammer, H. L., & Arntzen, E. (2020). Enhanced Equivalence Projective Simulation: a Framework for Modeling Formation of Stimulus Equivalence Classes** (Accepted in Neural Computation)
-
+[Mofrad, A. A., Yazidi, A., Mofrad, S. A., Hammer, H. L., & Arntzen, E. (2021). Enhanced Equivalence Projective Simulation: A Framework for Modeling Formation of Stimulus Equivalence Classes. Neural computation, 33(1), 1-45.](https://www.mitpressjournals.org/doi/full/10.1162/neco_a_01346)
 which is an extention of the "equivalence projective simulation" model which is introduced in [Equivalence Projective Simulation (EPS)](https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01274).
 
 Please cite the paper if you use the E-EPS model or the code in this repository. 
@@ -17,9 +16,10 @@ some arbitrary relations say A1-B1, A2-B2, B1-C1, B2-C2, are trained through a m
 ## Getting Started
 ### Prerequisites
 
-This code has been tested with Python 3.6.5 (Anaconda)
+This code has been tested with Python 3.6.5 (Anaconda). You can download it or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Asieh-A-Mofrad/Enhanced-Equivalence-Projective-Simulation/blob/master/notebook.ipynb) and access to the live view of the notebook.
 
-The program might crash if the initial values are not valid
+
+:warning: The program might crash if the initial values are not valid
 
 ## Process summary
 
