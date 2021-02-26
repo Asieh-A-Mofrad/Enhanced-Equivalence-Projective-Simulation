@@ -14,13 +14,9 @@ This code is used for simulation results reported in an article entitled:
 import numpy as np
 import networkx as nx
 import pandas as pd
-import pdb
-import scipy.linalg as la
 import sympy as sp
 
 sp.init_printing(use_unicode=True)
-
-import pickle
 
 
 class Agent(object):
@@ -164,12 +160,12 @@ class Agent(object):
             W_old = W_new.copy()
             self.NE_itr += 1
 
-        clip_infty = self.theoretical_convergence(Tau)
-        W_error2 = W_new.copy()
-        Error_2 = W_error2.sub(clip_infty).abs().sum().sum()
-        print (np.allclose(W_new, clip_infty))
-        if Error_2 > 0.001:
-            print('Error: ', Error_2)
+#        clip_infty = self.theoretical_convergence(Tau)
+#        W_error2 = W_new.copy()
+#        Error_2 = W_error2.sub(clip_infty).abs().sum().sum()
+#        print (np.allclose(W_new, clip_infty))
+#        if Error_2 > 0.001:
+#            print('Error: ', Error_2)
 
         return W_in, P, Tau, W_new
 
